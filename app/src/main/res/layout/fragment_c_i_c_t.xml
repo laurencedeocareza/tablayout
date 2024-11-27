@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CICT"
+    android:id="@+id/main">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cict"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/cict"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_creation_of_a_department_of_information_and_communications_technology_dict_is_perceived_to_be_the_next_logical_step_pushed_by_various_organizations_and_sectors_in_response_to_other_government_initiatives_to_centralize_information_and_communications_technology_ict_related_initiatives_these_government_initiatives_started_in_2004_when_president_arroyo_issued_eo_269_which_created_the_commission_of_information_and_communications_technology_cict_composed_of_the_national_computer_center_the_telecommunications_office_and_other_offices_of_the_department_of_transportation_and_communications_dotc_with_the_national_telecommunications_commission_and_the_philippine_postal_corporation_as_attached_agencies_in_2011_president_aquino_issued_eo_47_which_reorganized_the_cict_into_the_information_communications_technology_office_which_is_under_the_supervision_of_the_department_of_science_and_technology_several_bills_have_been_filed_in_both_the_upper_and_lower_houses_of_congress_to_push_for_the_creation_of_the_department_of_information_and_communications_technology_dict_most_of_the_bills_filed_intend_to_effectively_reorganize_the_current_structure_of_the_department_of_transportation_and_communications_dotc_transferring_all_functions_and_powers_of_the_said_department_regarding_communications_to_the_dict_while_renaming_the_dotc_as_the_department_of_transportation_the_primary_objective_common_to_all_the_bills_is_to_create_a_department_which_will_exclusively_focus_on_issues_relating_to_ict_and_to_promote_utilization_of_ict_as_a_vital_tool_for_nation_building_and_economic_growth_that_is_government_enable_private_sector_led_citizen_centric_and_market_based"
+        android:layout_below="@+id/cict"
+        android:padding="10dp"
+        android:textSize="11sp"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>

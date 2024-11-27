@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <!-- ImageView -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/tculogo"
+        android:id="@+id/tculogo"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="16dp"
+        />
+
+    <!-- TextView -->
+
+    <TextView
+        android:id="@+id/firsttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tculogo"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@id/tculogo"
+        android:text="@string/pamantasan_ng_lungsod_ng_taguig_plt_later_renamed_taguig_city_university_tcu_upon_conversion_of_the_municipality_of_taguig_to_cityhood_on_8_december_2004_was_established_through_ordinance_no_29_series_of_2004_enacted_6_september_2004_municipal_government_of_taguig_authored_by_councilor_aurelio_paulo_r_bartolome_with_councilors_marisse_balina_eron_and_allan_paul_c_cruz_as_co_sponsors"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/bottomtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tculogo"
+        android:text="@string/motivated_by_the_urgency_of_need_to_serve_the_youth_of_growing_taguig_city_the_local_government_administration_came_up_with_ordinance_no_29_series_of_2004_an_ordinance_establishing_the_pamantasan_ng_taguig_and_appropriating_funds_thereof_this_was_an_offshoot_of_the_provisions_of_the_local_government_code_pamantasan_ng_taguig_was_renamed_taguig_city_university_pursuant_to_city_ordinance_no_13_series_of_2009_tcu_has_gone_through_development_problems_top_billed_by_the_very_basic_need_to_have_enough_buildings_for_two_years_despite_its_courage_the_university_hardly_manifested_physical_eloquence_in_sy_2006_2007_it_swiftly_took_off_the_organization_of_the_university_and_construction_of_the_tcu_main_building_commenced_meanwhile_undergraduate_classes_were_held_in_high_schools_and_elementary_campuses_in_taguig_lent_to_the_growing_management_of_tcu_in_2006_general_ricardo_papa_sr_memorial_high_school_offered_some_rooms_for_free_in_2007_rooms_expanded_to_taguig_elementary_school_sta_ana_district_1_and_em_s_elementary_school_signal_village_district_2_in_2008_2009_additional_undergraduate_classes_were_held_in_the_annex_school_of_general_ricardo_papa_sr_memorial_high_school_at_brgy_ususan_and_signal_village_elementary_school_annex_lack_of_classrooms_did_not_deter_the_holding_of_graduate_school_classes_the_graduate_program_in_master_of_arts_in_teaching_major_in_mathematics_filipino_english_and_social_sciences_were_lumped_together_as_a_common_major_it_paved_the_way_to_the_development_of_the_master_of_arts_in_educational_management_while_holding_classes_in_a_secluded_and_secured_room_at_sunshine_mall_taguig_school_year_2009_2010_reflected_the_metamorphosis_of_youthful_taguig_city_university_because_in_june_all_classes_from_undergraduate_to_graduate_programs_started_to_be_held_at_the_new_main_building_of_tcu_the_rest_became_part_of_history_on_tcu_s_first_year_of_operation_2006_2007_the_university_was_under_the_stewardship_of_the_vice_president_for_academic_affairs_tess_umali_the_organization_of_the_university_and_construction_of_the_tcu_main_building_were_the_highlights_of_this_period_in_2007_2010_the_first_tcu_president_was_vice_mayor_george_elias_during_his_term_the_construction_of_the_main_building_was_completed_and_curricular_offerings_were_expanded_from_2010_to_the_early_part_of_2011_tcu_was_under_the_reins_of_bro_rolando_dizon_who_became_instrumental_in_creating_four_schools_graduate_studies_education_arts_and_sciences_engineering_technology_and_computer_sciences_management_entrepreneurship_and_criminology_on_april_4_2011_mayor_ma_laarni_lani_l_cayetano_installed_atty_lutgardo_b_barbo_as_the_third_president_of_tcu_he_is_a_former_governor_of_eastern_samar_and_secretary_of_the_philippine_senate_he_was_president_of_the_philippine_normal_university_from_2006_to_2010"
+        android:textSize="11sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+
+        />
+
+</RelativeLayout>
